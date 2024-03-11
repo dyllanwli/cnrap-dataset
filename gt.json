@@ -1,0 +1,148 @@
+{
+    "header": "Vendor Table Registration",
+    "questions": [
+        {
+            "label": "Hello and welcome to the vendor table selection for ITAG 2024",
+            "type": "esriQuestionTypeNote"
+        },
+        {
+            "label": "1. Please select the red table on the map to the left",
+            "type": "esriQuestionTypeNote"
+        },
+        {
+            "label": "2. There will be a pop-up with the table number and this page will refresh",
+            "type": "esriQuestionTypeNote"
+        },
+        {
+            "label": "3. Fill out the survey below and add the attendees information regarding meals",
+            "type": "esriQuestionTypeNote"
+        },
+        {
+            "isRequired": false,
+            "label": "Polygon",
+            "type": "esriQuestionTypePolygon"
+        },
+        {
+            "choices": [
+                "Registration Table",
+                "Buffet Table",
+                "Eating Area"
+            ],
+            "isRequired": false,
+            "label": "Type",
+            "type": "esriQuestionTypeSingleChoice"
+        },
+        {
+            "choices": [
+                "Available",
+                "Reserved",
+                "Not Available"
+            ],
+            "isRequired": false,
+            "label": "Status",
+            "type": "esriQuestionTypeSingleChoice"
+        },
+        {
+            "isRequired": true,
+            "label": "Please enter your name",
+            "type": "esriQuestionTypeText"
+        },
+        {
+            "isRequired": true,
+            "label": "Enter your company name",
+            "type": "esriQuestionTypeText"
+        },
+        {
+            "isRequired": true,
+            "label": "Enter your email address",
+            "type": "esriQuestionTypeText"
+        },
+        {
+            "isRequired": false,
+            "label": "You are reserving vendor table:",
+            "type": "esriQuestionTypeText"
+        },
+        {
+            "isRequired": false,
+            "label": "Attendee Name(s)",
+            "questions": [
+                {
+                    "isRequired": true,
+                    "label": "Please enter their name",
+                    "type": "esriQuestionTypeText"
+                },
+                {
+                    "isRequired": true,
+                    "label": "Please enter their title",
+                    "type": "esriQuestionTypeText"
+                },
+                {
+                    "choices": [
+                        "Yes",
+                        "No",
+                        "Unsure"
+                    ],
+                    "isRequired": true,
+                    "label": "Will they be joining us for Wednesday Lunch?",
+                    "type": "esriQuestionTypeSingleChoice"
+                },
+                {
+                    "choices": [
+                        "Yes",
+                        "No",
+                        "Unsure"
+                    ],
+                    "isRequired": true,
+                    "label": "Will they be joining us for Thursday Breakfast?",
+                    "type": "esriQuestionTypeSingleChoice"
+                },
+                {
+                    "choices": [
+                        "Yes",
+                        "No",
+                        "Unsure"
+                    ],
+                    "isRequired": true,
+                    "label": "Will they be joining us for Thursday Lunch?",
+                    "type": "esriQuestionTypeSingleChoice"
+                },
+                {
+                    "choices": [
+                        "Yes",
+                        "No",
+                        "Unsure"
+                    ],
+                    "isRequired": true,
+                    "label": "Will they be joining us for Thursday evening dinner/banquet?",
+                    "type": "esriQuestionTypeSingleChoice"
+                },
+                {
+                    "isRequired": true,
+                    "label": "Do they have any special meal requirements?",
+                    "type": "esriQuestionTypeText"
+                }
+            ],
+            "type": "esriQuestionTypeRepeat"
+        },
+        {
+            "isRequired": false,
+            "label": "count_attendees",
+            "type": "esriQuestionTypeNumber"
+        },
+        {
+            "isRequired": false,
+            "label": "Please share any comments or questions you have for us",
+            "type": "esriQuestionTypeText"
+        },
+        {
+            "isRequired": false,
+            "label": "Shape__Area",
+            "type": "esriQuestionTypeNumber"
+        },
+        {
+            "isRequired": false,
+            "label": "Shape__Length",
+            "type": "esriQuestionTypeNumber"
+        }
+    ]
+}
